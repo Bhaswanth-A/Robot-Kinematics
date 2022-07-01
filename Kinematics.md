@@ -48,7 +48,7 @@ An **affine transformation** is one that preserves collinearity (i.e., all point
 
 # Rotational Transformations
 
-A transformation matrix called the **Rotation Matrix** is used to specify the coordinate vectors for the axes of a frame $o_1x_1y_1z_1$ **with respect to coordinate frame $o_0x_0y_0z_0$*.* Thus, $R_1^0$ is a rotation matrix whose column vectors are the coordinates of the axes of frame $o_1x_1y_1z_1$ **expressed relative to coordinate frame $o_0x_0y_0z_0$*.* 
+A transformation matrix called the **Rotation Matrix** is used to specify the coordinate vectors for the axes of a frame $o_1x_1y_1z_1$ with respect to coordinate frame $o_0x_0y_0z_0$*.* Thus, $R_1^0$ is a rotation matrix whose column vectors are the coordinates of the axes of frame $o_1x_1y_1z_1$ expressed relative to coordinate frame $o_0x_0y_0z_0$*.* 
 
 $$
 R_1^0 = \begin{bmatrix}x_1.x_0 & y_1.x_0 & z_1.x_0\\x_1.y_0 & y_1.y_0 & z_1.y_0\\x_1.z_0 & y_1.z_0 & z_1.z_0\end{bmatrix}
